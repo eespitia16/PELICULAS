@@ -22,16 +22,16 @@ h2{
 }
 
 h3{
-  background-color: rgb(202, 130, 187);
-  width: 80px;
-  margin: 10px;
+  background-color: rgb(255, 255, 255);
+  border: solid 2px skyblue;
+  margin: 5px;
   text-align: center;
-  color: aliceblue;
+  color: rgb(0, 0, 0);
   font-size: 20px;
 }
 p{
-  margin: 5px;
-  color: aliceblue;
+  margin: 0px;
+  color: rgb(255, 255, 255);
   font-size: 15px;
   text-align: justify;
 }
@@ -58,8 +58,17 @@ a{
 
 }
 a:hover{
-  background-color: rgb(178, 46, 196);
+  background-color: rgb(135, 132, 136);
   padding: 0px;
+}
+section a{
+  text-decoration: none;
+  text-align: center;
+ margin: 10px;
+  color:black;
+  font-size: 20px;
+  display: inline-block;
+ font-family: 'Arimo', sans-serif;
 }
 
   body{
@@ -131,7 +140,7 @@ a:hover{
     bottom: 0px;
     margin: 750px 30px;
     background-color: rgba(128, 121, 103, 0);
-    width: 250px;
+    width: 200px;
     height: 300px;
     float: left;
     overflow: hidden;
@@ -145,13 +154,18 @@ a:hover{
     bottom: 0px;
     margin: 750px 335px;
     background-color: rgba(128, 121, 103, 0);
-    width: 250px;
+    width: 200px;
     height: 300px;
     float: left;
     overflow: hidden;
+    
   
   }
-  
+  section img {
+    width: 200px;
+    height: 300px;
+  }
+   
   
   .uno1>article,.uno2>article{
     position: absolute;
@@ -220,7 +234,7 @@ a:hover{
     bottom: 0px;
     margin: 750px 650px;
     background-color: rgba(128, 121, 103, 0);
-    width: 250px;
+    width: 200px;
     height: 300px;
     float: left;
     overflow: hidden;
@@ -234,7 +248,7 @@ a:hover{
     bottom: 0px;
     margin: 750px 970px;
     background-color: rgba(128, 121, 103, 0);
-    width: 250px;
+    width: 200px;
     height: 300px;
     float: left;
     overflow: hidden;
@@ -314,7 +328,7 @@ a:hover{
     bottom: 0px;
     margin: 1130px 30px;
     background-color: rgba(128, 121, 103, 0);
-    width: 250px;
+    width: 200px;
     height: 300px;
     float: left;
     overflow: hidden;
@@ -328,7 +342,7 @@ a:hover{
     bottom: 0px;
     margin: 1130px 335px;
     background-color: rgba(128, 121, 103, 0);
-    width: 250px;
+    width: 200px;
     height: 300px;
     float: left;
     overflow: hidden;
@@ -365,7 +379,7 @@ a:hover{
   
   .uno6>article>h4{
     text-align: center;
-    font-family: 'Gloria Hallelujah', cursive;
+    font-family: 'Oxygen', sans-serif;
     font-family: 'Amatic SC', cursive;
     color: aliceblue;
     padding:20px 20px;
@@ -409,7 +423,7 @@ a:hover{
     bottom: 0px;
     margin: 1130px 650px;
     background-color: rgba(128, 121, 103, 0);
-    width: 250px;
+    width: 200px;
     height: 300px;
     float: left;
     overflow: hidden;
@@ -423,7 +437,7 @@ a:hover{
     bottom: 0px;
     margin: 1130px 970px;
     background-color: rgba(128, 121, 103, 0);
-    width: 250px;
+    width: 200px;
     height: 300px;
     float: left;
     overflow: hidden;
