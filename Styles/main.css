@@ -500,9 +500,39 @@ section a{
    margin: 30px;
   }
  
-  .imagenes{
-    width: 40px;
-    height: 40px;
-    margin:0px 60px;
+  .uno0{
+    width: 43px;
+    height: 43px;
+    margin: 0px 0px -2px 544px;;
 
+  }
+   .dos0{
+    width: 46px;
+      height: 46px;
+      margin:0px 0px -4px 17px;;
+    
+  }
+  .tres0{
+    width: 36px;
+    height: 36px;
+    margin:-38px 0px 16px 682px ;
+    
+  }
+  .uno01{
+    width: 43px;
+    height: 43px;
+    margin: 10px 0px -2px 544px;;
+
+  }
+   .dos01{
+    width: 46px;
+      height: 46px;
+      margin:10px 0px -4px 17px;;
+    
+  }
+  .tres01{
+    width: 36px;
+    height: 36px;
+    margin:-38px 0px 16px 682px ;
+    
   }
