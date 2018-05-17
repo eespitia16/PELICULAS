@@ -497,7 +497,7 @@ section a{
 
   }
   .ANIMACION img, .AVENTURA img, .ACCION img, .COMEDIA img, .ROMANCE img{
-   margin: 30px;
+   margin: 30px 20px;
   }
  
   .uno0{
@@ -553,4 +553,70 @@ section a{
     height: 36px;
     margin:-38px 0px 0px 24px ;
     
+  }
+  .spider{
+    margin: 168px 50px;
+    opacity: 0.1;
+    
+
+  }
+  .logo1{
+    width: 140px;
+    height: 140px;
+    background-color:rgb(28, 4, 9);
+    float: left;
+  }
+  .parrafo{
+    color: aliceblue;
+    position: relative;
+    
+  }
+
+  .zoolander{
+    margin: 168px 50px;
+    opacity: 0.1;
+    position: relative;
+
+  }
+
+  .FROZEN{
+    margin: 50px 30px;
+    opacity: 0.1;
+    position: relative;
+
+  }
+  .FROZEN1{
+    margin: 50px 20px;
+    opacity: 0.1;
+    position: relative;
+    
+  }
+  .fr{
+    text-align: center;
+    margin: 127px 280px;
+    color: aliceblue;
+    font-size: 15px;
+  }
+
+  .piratas{
+    margin: 168px 50px;
+    opacity: 0.1;
+    
+  }
+  .secreto{
+    margin: 168px 50px;
+    opacity: 0.1; 
+  }
+  .GATOCONBOTAS{
+    margin: 168px 50px;
+    opacity: 0.1;
+  }
+  .lavigilante{
+    margin: 168px 50px;
+    opacity: 0.1;
+
+  }
+  .lacasa{
+    margin: 168px 50px;
+    opacity: 0.1;
   }
