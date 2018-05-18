@@ -580,14 +580,13 @@ section a{
   }
 
   .FROZEN{
-    margin: 50px 30px;
+    margin: 0px 0px;
     opacity: 0.1;
-    position: relative;
+    position: absolute;
 
   }
   .FROZEN1{
-    margin: 50px 20px;
-    opacity: 0.1;
+    margin: 80px 50px;
     position: relative;
     
   }
@@ -596,6 +595,7 @@ section a{
     margin: 127px 280px;
     color: aliceblue;
     font-size: 15px;
+    position: relative;
   }
 
   .piratas{
