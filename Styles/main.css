@@ -35,31 +35,41 @@ p{
   font-size: 15px;
   text-align: justify;
 }
-
-nav ul center {
-
+nav{
+  position: relative;
+  text-align: right;
+  border-bottom: solid 0.4px #ffffff;
   background-color:  rgb(28, 4, 29);
-  height: 40px;
-  width: auto;
-  text-align: center;
+  padding: 20px 0;
+}
+nav ul li:first-child {
+  position: absolute;
+  top:0px;
+  height: 90px;
+  left: 60px;
+  bottom: 0px;
+  margin: auto 0;
+}
+nav ul li:first-child a img{
+  height: 90px;
+}
+nav ul li:first-child a{
+  padding: 0;
+
 }
 nav ul li {
     display: inline-block;
 }
-
-a{
+nav ul li a {
+  padding: 18px 25px;
   text-decoration: none;
-  text-align: center;
- margin: 10px;
   color:white;
   font-size: 20px;
   display: inline-block;
- font-family: 'Arimo', sans-serif;
-
+  font-family: 'Arimo', sans-serif;
 }
-a:hover{
+nav ul li a:hover{
   background-color: rgb(135, 132, 136);
-  padding: 0px;
 }
 
 section a{
@@ -78,26 +88,16 @@ section a{
 
   }
 
-   .logo {
-   width: 140px;
-   height: 140px;
-   margin: 10px 30px;
-   background-color:  rgb(28, 4, 29);
-    
-  }
-
   .slider{
     width: auto;
-    height: 400px;
+    height: 600px;
     margin: auto;
     overflow: hidden;
   }
   .slider ul{
     display: flex;
     padding: 0%;
-    margin: 40px;
     width: 400%;
-
     animation: cambio 15s infinite alternate;
     animation-timing-function: cubic-bezier(0.23, 1, 0.320, 1);
 
