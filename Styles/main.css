@@ -17,7 +17,7 @@ h1{
 }
 h2{
   margin:30px;
- text-align: center;
+  text-align: center;
   color: aliceblue;
 }
 
@@ -35,10 +35,15 @@ p{
   font-size: 15px;
   text-align: justify;
 }
+.borde{
+color: #f0ee8f;
+border-bottom: solid 0.4px #f0ee8f;
+
+}
 nav{
   position: relative;
   text-align: right;
-  border-bottom: solid 0.4px #ffffff;
+  border-bottom: solid 0.4px #f0ee8f;
   background-color:  rgb(28, 4, 29);
   padding: 20px 0;
 }
@@ -68,9 +73,7 @@ nav ul li a {
   display: inline-block;
   font-family: 'Arimo', sans-serif;
 }
-nav ul li a:hover{
-  background-color: rgb(135, 132, 136);
-}
+
 
 section a{
   text-decoration: none;
@@ -91,7 +94,7 @@ section a{
   .slider{
     width: auto;
     height: 600px;
-    margin: auto;
+    margin: 10PX;
     overflow: hidden;
   }
   .slider ul{
@@ -572,51 +575,4 @@ section a{
     
   }
 
-  .zoolander{
-    margin: 168px 50px;
-    opacity: 0.1;
-    position: relative;
-
-  }
-
-  .FROZEN{
-    margin: 0px 0px;
-    opacity: 0.1;
-    position: absolute;
-
-  }
-  .FROZEN1{
-    margin: 80px 50px;
-    position: relative;
-    
-  }
-  .fr{
-    text-align: center;
-    margin: 127px 280px;
-    color: aliceblue;
-    font-size: 15px;
-    position: relative;
-  }
-
-  .piratas{
-    margin: 168px 50px;
-    opacity: 0.1;
-    
-  }
-  .secreto{
-    margin: 168px 50px;
-    opacity: 0.1; 
-  }
-  .GATOCONBOTAS{
-    margin: 168px 50px;
-    opacity: 0.1;
-  }
-  .lavigilante{
-    margin: 168px 50px;
-    opacity: 0.1;
-
-  }
-  .lacasa{
-    margin: 168px 50px;
-    opacity: 0.1;
-  }
+ 
