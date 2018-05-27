@@ -4,16 +4,24 @@
 }
 
 h1{
-    background-color:  rgb(28, 4, 29);
-    text-align: left;
-    font-family: 'Arimo', sans-serif;
-    font-size: 30px;
-    color: aliceblue;
-    margin: auto;
-    top: 42px;
-    left: 217px;
+    
     position: absolute;
+    z-index:0;
+    margin: -644px  0px 0px 938px;
+    color:white;
+   font-size: 40px;
+   
   
+}
+article h1 {
+        width: 100px;
+        height: 60px;
+        background-color: rgba(0, 255, 255, 0.64);
+        
+        position: absolute;
+        transform: rotate(360deg) translate(350px ,-350px);
+        transition-duration: .5s;
+        text-align: center;
 }
 h2{
   margin:30px;
@@ -92,26 +100,31 @@ section a{
   }
 
   .slider{
+  
     width: auto;
-    height: 600px;
-    margin: 10PX;
+    height: 550px;
+    margin: auto;
     overflow: hidden;
+    
   }
   .slider ul{
     display: flex;
     padding: 0%;
     width: 400%;
-    animation: cambio 15s infinite alternate;
+    animation: cambio 20s infinite alternate;
     animation-timing-function: cubic-bezier(0.23, 1, 0.320, 1);
 
   }
-  .slider ul li{
+  .slider ul li {
     width: 100%;
      list-style: none;
   }
-  .slider img{
+  .slider img, .peli1{
     width: 100%;
+    height: 662px;
+    object-fit: initial;
   }
+
   @keyframes cambio{
     0% {margin-left: 0;}
     20%{margin-left: 0;}
@@ -123,10 +136,20 @@ section a{
     70%{margin-left: -200%;}
 
     75%{margin-left: -300%;}
-    95%{margin-left: -300%;}
+    100%{margin-left: -300%;}
 
   }
+  
+  .peli1{
+    font-family: 'Arimo', sans-serif;
+  
+    color: aliceblue;
+    font-size: 30px;
+    margin: 150px 50px;
+   
+    position: relative;
 
+  }
 
   .uno1{
     position: relative;
@@ -574,5 +597,16 @@ section a{
     position: relative;
     
   }
-
- 
+  
+.video{
+display: block;
+width: 100%;
+height: 600px;
+top: -284px;
+position: relative;
+}
+.video-peli  video{
+width: 100%;
+height: 600px;
+background: white;
+}
