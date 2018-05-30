@@ -7,9 +7,9 @@ h1{
     
     position: absolute;
     z-index:0;
-    margin: -644px  0px 0px 938px;
+    margin: -600px  0px 0px 860px;
     color:white;
-   font-size: 40px;
+   font-size: 30px;
    
   
 }
@@ -17,7 +17,6 @@ article h1 {
         width: 100px;
         height: 60px;
         background-color: rgba(0, 255, 255, 0.64);
-        
         position: absolute;
         transform: rotate(360deg) translate(350px ,-350px);
         transition-duration: .5s;
@@ -30,11 +29,10 @@ h2{
 }
 
 h3{
-  background-color: rgb(255, 255, 255);
   border: solid 2px skyblue;
   margin: 5px;
   text-align: center;
-  color: rgb(0, 0, 0);
+  color: rgb(252, 249, 249);
   font-size: 20px;
 }
 p{
@@ -87,7 +85,7 @@ section a{
   text-decoration: none;
   text-align: center;
  margin: 10px;
-  color:black;
+  color:white;
   font-size: 20px;
   display: inline-block;
  font-family: 'Arimo', sans-serif;
@@ -100,26 +98,26 @@ section a{
   }
 
   .slider{
-  
     width: auto;
-    height: 550px;
+    height: 650px;
     margin: auto;
     overflow: hidden;
+    position: relative;
     
   }
   .slider ul{
     display: flex;
     padding: 0%;
     width: 400%;
-    animation: cambio 20s infinite alternate;
+    animation: cambio 8s infinite alternate;
     animation-timing-function: cubic-bezier(0.23, 1, 0.320, 1);
 
   }
-  .slider ul li {
+  .slider ul li{
     width: 100%;
      list-style: none;
   }
-  .slider img, .peli1{
+  .slider img{
     width: 100%;
     height: 662px;
     object-fit: initial;
@@ -594,10 +592,37 @@ section a{
   }
   
 
-.video-peli {
-width: 100%;
-height: 600px;
-background: white;
-position: relative;
-margin: 30px 0px 0px 0px;
+  .video-peli{
+    display: block;
+    width: 100%;
+    height: 500px;
+    position: relative;
+    background-color: rgb(28, 4, 29);
+    }
+
+    .video-peli video{
+      width: 100%;
+      height: 500px;
+      background: white;
+     position: relative;
+      text-align: center;
+    }
+    
+.Spider{
+  position: absolute;
+}
+.Spider h2{
+  margin:30px 200PX;
+ 
+  color: aliceblue;
+}
+  
+.zoolander{
+  margin: 0px;
+  position: absolute;
+
+}
+.zoolander p{
+  position: relative; 
+  margin:0px;
 }
