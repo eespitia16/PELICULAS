@@ -4,10 +4,10 @@
 }
 
 h1{
-    
+  font-family: 'Arimo', sans-serif;
     position: absolute;
     z-index:0;
-    margin: -600px  0px 0px 860px;
+    margin: -350px  0px 0px 326px;
     color:white;
    font-size: 30px;
    
@@ -24,7 +24,7 @@ article h1 {
 }
 h2{
   margin:30px;
-  text-align: center;
+
   color: aliceblue;
 }
 
@@ -36,9 +36,9 @@ h3{
   font-size: 20px;
 }
 p{
-  margin: 0px;
+  margin: -260px 337px;
   color: rgb(255, 255, 255);
-  font-size: 15px;
+  font-size: 20px;
   text-align: justify;
 }
 .borde{
@@ -47,14 +47,14 @@ border-bottom: solid 0.4px #f0ee8f;
 
 }
 nav{
-  position: relative;
+ 
   text-align: right;
   border-bottom: solid 0.4px #f0ee8f;
   background-color:  rgb(28, 4, 29);
   padding: 20px 0;
 }
 nav ul li:first-child {
-  position: absolute;
+
   top:0px;
   height: 90px;
   left: 60px;
@@ -63,7 +63,9 @@ nav ul li:first-child {
 }
 nav ul li:first-child a img{
   height: 90px;
+  margin:-47px 0px -39px 0px;
 }
+
 nav ul li:first-child a{
   padding: 0;
 
@@ -92,8 +94,9 @@ section a{
 }
 
   body{
-      background-color:  rgb(28, 4, 29);
-      background-position: 100%;
+     
+    background-color:  rgb(28, 4, 29);
+
 
   }
 
@@ -140,38 +143,34 @@ section a{
   
   .peli1{
     font-family: 'Arimo', sans-serif;
-  
     color: aliceblue;
     font-size: 30px;
     margin: 150px 50px;
-   
     position: relative;
 
   }
 
   .uno1{
     position: relative;
-   margin: 50px 30px;
     width: 250px;
     height: 350px;
+    margin: 40px 30px;
     background-color: rgba(128, 121, 103, 0);
     display: inline-block;
     overflow: hidden;
- 
   
   }
   .uno2{
     position: relative;
     width: 250px;
     height: 350px;
-    margin: 50px 30px;
+    margin: 40px 30px;
     background-color: rgba(128, 121, 103, 0);
     display: inline-block;
     overflow: hidden;
-    
   
   }
-   
+  
   
   .uno1>article,.uno2>article{
     position: absolute;
@@ -199,6 +198,7 @@ section a{
   }
   
   
+  
   .uno2>article>h4{
     text-align: center;
     font-family: 'Gloria Hallelujah', cursive;
@@ -213,7 +213,6 @@ section a{
     transform: translate(0px);
   }
   .uno1>article>p,.uno2>article>p{
-    color: white ;
     margin:20px;
     transform: translate(-700px,-390px);
     transition-duration: .5s;
@@ -224,6 +223,7 @@ section a{
     transform: translateY(0px);
   }
   .uno1>article>h3,.uno2>article>h3{
+   
     transform: translatey(160px);
     transition-duration: .5s;
     transition-delay:1s;
@@ -233,6 +233,7 @@ section a{
     transform: translate(0px);
   }
   
+
  
   .uno3{
     position: relative;
@@ -517,9 +518,11 @@ section a{
   margin: 25px 280px;
   color: aliceblue;
   font-size: 15px;
-  
-
   }
+
+ 
+ 
+  
   .ANIMACION img, .AVENTURA img, .ACCION img, .COMEDIA img, .ROMANCE img{
    margin: 30px 20px;
   }
@@ -578,6 +581,24 @@ section a{
     margin:-38px 0px 0px 24px ;
     
   }
+  .uno03{
+    width: 43px;
+    height: 43px;
+    margin: 10px 0px -2px 544px;;
+
+  }
+   .dos03{
+    width: 46px;
+      height: 46px;
+      margin:10px 0px -4px 17px;;
+    
+  }
+  .tres03{
+    width: 36px;
+    height: 36px;
+    margin:-38px 0px 0px 24px ;
+    
+  }
   
   .logo1{
     width: 140px;
@@ -595,31 +616,35 @@ section a{
   .video-peli{
     display: block;
     width: 100%;
-    height: 500px;
+    height: auto;
     position: relative;
     background-color: rgb(28, 4, 29);
     }
 
     .video-peli video{
       width: 100%;
-      height: 500px;
+      height: auto;
       background: white;
      position: relative;
       text-align: center;
     }
     
-.Spider{
+.IMAGEN{
   position: absolute;
+  margin: 40px;
 }
-.Spider h2{
-  margin:30px 200PX;
- 
-  color: aliceblue;
-}
-.Spiderman uno01{
-  
 
+.PROTAGONISTAS{
+  margin: 450px 0px 0px 12px;
 }
+  .PROTAGONISTAS>h2{
+    margin: 450px 0px 26px 59px;
+    }
+.pie_pagina{
+  margin: 50px 100px 0px 0px; 
+ 
+}
+
   
 .zoolander{
   margin: 0px;
@@ -630,3 +655,5 @@ section a{
   position: relative; 
   margin:0px;
 }
+
+
