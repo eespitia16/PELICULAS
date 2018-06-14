@@ -4,7 +4,7 @@
 }
 
 h1{
-  font-family: 'Arimo', sans-serif;
+  font-family: 'Roboto', sans-serif;
     position: absolute;
     z-index:0;
     margin: -350px  0px 0px 326px;
@@ -24,11 +24,12 @@ article h1 {
 }
 h2{
   margin:30px;
-
+  font-family: 'Roboto', sans-serif;
   color: aliceblue;
 }
 
 h3{
+  font-family: 'Roboto', sans-serif;
   border: solid 2px skyblue;
   margin: 5px;
   text-align: center;
@@ -36,6 +37,7 @@ h3{
   font-size: 20px;
 }
 p{
+  font-family: 'Roboto', sans-serif;
   margin: -260px 337px;
   color: rgb(255, 255, 255);
   font-size: 20px;
@@ -59,11 +61,11 @@ nav ul li:first-child {
   height: 90px;
   left: 60px;
   bottom: 0px;
-  margin: auto 0;
+  margin: 0px  0px;
 }
 nav ul li:first-child a img{
   height: 90px;
-  margin:-47px 0px -39px 0px;
+  margin:-47px 12px -39px 98px;
 }
 
 nav ul li:first-child a{
@@ -86,7 +88,7 @@ nav ul li a {
 section a{
   text-decoration: none;
   text-align: center;
- margin: 10px;
+  margin: 10px;
   color:white;
   font-size: 20px;
   display: inline-block;
@@ -103,7 +105,7 @@ section a{
   .slider{
     width: auto;
     height: 650px;
-    margin: auto;
+    margin: -47px 0px;
     overflow: hidden;
     position: relative;
     
@@ -154,7 +156,7 @@ section a{
     position: relative;
     width: 250px;
     height: 350px;
-    margin: 40px 30px;
+    margin:88px 23px 40px 33px;
     background-color: rgba(128, 121, 103, 0);
     display: inline-block;
     overflow: hidden;
@@ -164,7 +166,7 @@ section a{
     position: relative;
     width: 250px;
     height: 350px;
-    margin: 40px 30px;
+    margin: 40px 29px;
     background-color: rgba(128, 121, 103, 0);
     display: inline-block;
     overflow: hidden;
@@ -215,7 +217,7 @@ section a{
   .uno1>article>p,.uno2>article>p{
     margin:20px;
     transform: translate(-700px,-390px);
-    transition-duration: .5s;
+    transition-duration: .01s;
     transition-delay: 1s;
   }
   .uno1:hover>article>p,.uno2:hover>article>p{
@@ -239,7 +241,7 @@ section a{
     position: relative;
     width: 250px;
     height: 350px;
-    margin: 40px 30px;
+    margin: 40px 29px;
     background-color: rgba(128, 121, 103, 0);
     display: inline-block;
     overflow: hidden;
@@ -249,7 +251,7 @@ section a{
     position: relative;
     width: 250px;
     height: 350px;
-    margin: 40px 30px;
+    margin: 40px 29px;
     background-color: rgba(128, 121, 103, 0);
     display: inline-block;
     overflow: hidden;
@@ -326,7 +328,7 @@ section a{
     position: relative;
     width: 250px;
     height:350px;
-    margin: 30px;
+    margin: 20px 29px;
     background-color: rgba(128, 121, 103, 0);
     display: inline-block;
     overflow: hidden;
@@ -336,7 +338,7 @@ section a{
     position: relative;
     width: 250px;
     height:350px;
-    margin: 30px;
+    margin: 20px 29px;
     background-color: rgba(128, 121, 103, 0);
     display: inline-block;
     overflow: hidden;
@@ -411,7 +413,7 @@ section a{
 
   .uno7{
     position: relative;
-    margin: 30px;
+    margin: 20px 29px;
     background-color: rgba(128, 121, 103, 0);
     width: 250px;
     height: 350px;
@@ -424,7 +426,7 @@ section a{
     position: relative;
     width: 250px;
     height:350px;
-    margin: 30px;
+    margin: 20px 29px;
     background-color: rgba(128, 121, 103, 0);
     display: inline-block;
     overflow: hidden;
@@ -515,7 +517,7 @@ section a{
   
   footer p{
   text-align: center;
-  margin: 25px 280px;
+  margin: 25px 206px;
   color: aliceblue;
   font-size: 15px;
   }
@@ -618,6 +620,7 @@ section a{
     width: 100%;
     height: auto;
     position: relative;
+    margin: -47px 0px 10px 0px;
     background-color: rgb(28, 4, 29);
     }
 
