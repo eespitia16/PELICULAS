@@ -142,9 +142,18 @@ section a{
     100%{margin-left: -300%;}
 
   }
+  .slider h1{
+    font-family: 'Roboto', sans-serif;
+    color: aliceblue;
+    margin: -325px 5px;
+    position: absolute;
+    z-index: 0;
+    font-size: 50px;
+  }
+
   
   .peli1{
-    font-family: 'Arimo', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: aliceblue;
     font-size: 30px;
     margin: 150px 50px;
