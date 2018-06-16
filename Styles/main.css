@@ -59,13 +59,12 @@ nav ul li:first-child {
 
   top:0px;
   height: 90px;
-  left: 60px;
   bottom: 0px;
   margin: 0px  0px;
 }
 nav ul li:first-child a img{
   height: 90px;
-  margin:-47px 12px -39px 98px;
+  margin:-47px 12px -39px 0px;
 }
 
 nav ul li:first-child a{
