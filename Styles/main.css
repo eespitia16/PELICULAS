@@ -225,8 +225,8 @@ section a{
   .uno1>article>p,.uno2>article>p{
     margin:20px;
     transform: translate(-700px,-390px);
-    transition-duration: .01s;
-    transition-delay: 1s;
+    transition-duration: .5s;
+    transition-delay: 0.5s;
   }
   .uno1:hover>article>p,.uno2:hover>article>p{
     transform: translateX(0px);
@@ -311,7 +311,7 @@ section a{
     margin:20px;
     transform: translate(-700px,-390px);
     transition-duration: .5s;
-    transition-delay: 1s;
+    transition-delay: 0.5s;
   }
   .uno3:hover>article>p,.uno4:hover>article>p{
     transform: translateX(0px);
@@ -398,7 +398,7 @@ section a{
     margin:20px;
     transform: translate(-700px,-390px);
     transition-duration: .5s;
-    transition-delay: 1s;
+    transition-delay: 0.5s;
   }
   .uno5:hover>article>p,.uno6:hover>article>p{
     transform: translateX(0px);
@@ -486,7 +486,7 @@ section a{
     margin:20px;
     transform: translate(-700px,-390px);
     transition-duration: .5s;
-    transition-delay: 1s;
+    transition-delay: 0.5s;
   }
   .uno7:hover>article>p,.uno8:hover>article>p{
     transform: translateX(0px);
@@ -657,14 +657,5 @@ section a{
 }
 
   
-.zoolander{
-  margin: 0px;
-  position: absolute;
-
-}
-.zoolander p{
-  position: relative; 
-  margin:0px;
-}
 
 
