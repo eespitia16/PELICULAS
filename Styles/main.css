@@ -40,7 +40,7 @@ p{
   font-family: 'Roboto', sans-serif;
   margin: -260px 337px;
   color: rgb(255, 255, 255);
-  font-size: 20px;
+  font-size: 18px;
   text-align: justify;
 }
 .borde{
@@ -643,6 +643,7 @@ section a{
 .IMAGEN{
   position: absolute;
   margin: 40px;
+ 
 }
 
 .PROTAGONISTAS{
